@@ -1,0 +1,25 @@
+
+nextPow10Up <- function(val):
+    p = int(ceil(log10(val)))
+    return p
+
+nextPow10Down <- function(val):
+    p = int(floor(log10(val)))
+    return p
+
+x <- seq(0.5, 2.5, 1)
+y <- c(10, 100, 1000)
+
+
+powd = nextPow10Down(10**(self.ax.get_ylim()[0]))
+powup = nextPow10Up(10**(self.ax.get_ylim()[1]))
+majTicks = arange(powd, powup+1)
+self.ax.set_yticks(majTicks)
+yTickLabels = []
+for tick in majTicks:
+  yTickLabels.append(str(10**tick))
+self.ax.set_yticklabels(yTickLabels)
+minTicks = []
+for i in range(len(majTicks)-1):
+  minTicks.extend(log10(linspace(10**majTicks[i], 10**majTicks[i+1], 10)))
+self.ax.set_yticks(minTicks, minor=True)

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+R CMD build RAudioUtils/
+R CMD INSTALL -l ~/.R_library RAudioUtils_1.0.tar.gz
+rm RAudioUtils.pdf
+R CMD Rd2pdf RAudioUtils/
+
+
