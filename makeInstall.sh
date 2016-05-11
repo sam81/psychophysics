@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-R CMD build AudioUtils/
-R CMD INSTALL -l ~/.R_library AudioUtils_1.0.tar.gz
-rm AudioUtils.pdf
-R CMD Rd2pdf AudioUtils/
+R CMD build psychophysics/
+R CMD INSTALL -l ~/.R_library psychophysics_1.0.tar.gz
+rm psychophysics.pdf
+R CMD Rd2pdf psychophysics/
 
 

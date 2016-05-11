@@ -1,1 +1,1 @@
-Miscellaneous utility R functions for auditory research.
+Miscellaneous utility R functions for psychophysics research.

@@ -1,12 +1,12 @@
-\name{geoSd}
-\alias{geoSd}
+\name{geoSD}
+\alias{geoSD}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Geometric Standard Deviation}
 \description{
 Compute the geometric standard deviation of a set of values
 }
 \usage{
-geoSd(x)
+geoSD(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -29,10 +29,10 @@ The geometric standard deviation of the input data
 
  %~Make other sections like Warning with \section{Warning }{....} ~
 %}
-\seealso{\code{\link{geoMean}}, \code{\link{geoSe}}}
+\seealso{\code{\link{geoMean}}, \code{\link{geoSE}}}
 \examples{
 x <- abs(rnorm(100))
-geoSd(x)
+geoSD(x)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

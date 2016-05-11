@@ -13,7 +13,7 @@ geoMean(x)
   \item{x}{a numeric vector of positive numbers}
 }
 \details{
-  
+  Values must be positive.
 }
 \value{
  The geometric mean of the input numerical vector
@@ -25,7 +25,7 @@ and Probability for Engineers}, 3rd Ed. Wiley}
 
 % ~Make other sections like Warning with \section{Warning }{....} ~
 %}
-\seealso{\code{\link{geoSd}}, \code{\link{geoSe}}}
+\seealso{\code{\link{geoSD}}, \code{\link{geoSE}}}
 \examples{
 x <- abs(rnorm(100))
 geoMean(x)

@@ -1,6 +1,0 @@
-geoSd <- function(x){
-
-  out <- 10^sd(log10(x))
-  return(out)
-}
-  

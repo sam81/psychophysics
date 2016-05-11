@@ -1,23 +1,25 @@
-\name{geoSd}
-\alias{geoSd}
+\name{nextPow10}
+\alias{nextPow10}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Geometric Standard Deviation}
+\title{Next Power of 10}
 \description{
-Compute the geometric standard deviation of a set of values
+  Compute the next power of 10 closest to the given argument.
+  In other words, compute the minimum integer exponent to which 10
+  should be raised so that 10^x is greater than the argument.
 }
 \usage{
-geoSd(x)
+nextPow10(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{a numeric vector of positive values}
+  \item{x}{numeric vector}
 }
 \details{
 
 }
-}
+
 \value{
-The geometric standard deviation of the input data
+The next power of 10 closest to the given argument.
 
 
 
@@ -29,10 +31,9 @@ The geometric standard deviation of the input data
 
  %~Make other sections like Warning with \section{Warning }{....} ~
 %}
-\seealso{\code{\link{geoMean}}, \code{\link{geoSe}}}
+\seealso{\code{\link{prevPow10}}}
 \examples{
-x <- abs(rnorm(100))
-geoSd(x)
+nextPow10(101)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

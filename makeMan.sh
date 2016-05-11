@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-rm AudioUtils.pdf
-R CMD Rd2pdf AudioUtils/
+rm psychophysics.pdf
+R CMD Rd2pdf psychophysics/
 

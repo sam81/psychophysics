@@ -1,5 +1,0 @@
-geoSe <- function(x){
-  n <- length(x)
-  out <- 10^sqrt(sum((log10(x) - mean(log10(x)))^2) / ((n-1)* n))
-  return(out)
-}

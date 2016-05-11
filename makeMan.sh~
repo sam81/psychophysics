@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-rm RAudioUtils.pdf
-R CMD Rd2pdf RAudioUtils/
-
