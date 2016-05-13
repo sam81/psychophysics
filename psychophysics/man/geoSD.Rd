@@ -31,7 +31,7 @@ The geometric standard deviation of the input data
 %}
 \seealso{\code{\link{geoMean}}, \code{\link{geoSE}}}
 \examples{
-x <- abs(rnorm(100))
+x = abs(rnorm(100))
 geoSD(x)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

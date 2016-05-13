@@ -18,7 +18,7 @@ geoMean(x)
 \value{
  The geometric mean of the input numerical vector
 }
-\references{Montgomery, D. C. \& Runger D. C. (2003). \emph{Applied Statistics
+\references{Montgomery, D. C. & Runger D. C. (2003). \emph{Applied Statistics
 and Probability for Engineers}, 3rd Ed. Wiley}
 \author{Samuele Carcagno}
 %\note{ ~~further notes~~ 
@@ -27,7 +27,7 @@ and Probability for Engineers}, 3rd Ed. Wiley}
 %}
 \seealso{\code{\link{geoSD}}, \code{\link{geoSE}}}
 \examples{
-x <- abs(rnorm(100))
+x = abs(rnorm(100))
 geoMean(x)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

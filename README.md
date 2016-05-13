@@ -1,1 +1,1 @@
-Miscellaneous utility R functions for psychophysics research.
+Miscellaneous utility functions for psychophysics research.

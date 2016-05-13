@@ -3,7 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Compute the RMS of a signal }
 \description{
-  Given a signal, compute its Root Mean Square (RMS) value.
+  Given a signal, compute its root mean square (RMS) value.
 }
 \usage{
 getRMS(signal)
@@ -13,13 +13,11 @@ getRMS(signal)
   \item{signal}{a vector of values representing the signal}
 }
 \details{
-  The RMS for a signal $x[n] = \{x_1, x_2,\ldots, x_n\}$ is computed as:
-  \begin{displaymath}
-  RMS = \sqrt{\frac{1}{n}{\sum_{i=1}^n x_i^2}}
-  \end{displaymath}
+  The RMS is calculated by computing the square root of the mean of the
+  signal values squared.
 }
 \value{
-  RMS of the signal
+  RMS value of the signal.
 }
 \references{Hartmann, W. M. (1998) \emph{Signals, sound and sensation}. New York: Springer.}
 \author{Samuele Carcagno}
@@ -27,7 +25,7 @@ getRMS(signal)
 \seealso{\code{\link{adjustRMS}} }
 \examples{
 # generate random signal
-x <- rnorm(100)
+x = rnorm(100)
 # compute RMS
 getRMS(x)
 

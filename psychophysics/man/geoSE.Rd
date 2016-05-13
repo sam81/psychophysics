@@ -27,7 +27,7 @@ geoSE(x)
 %}
 \seealso{\code{\link{geoSD}}, \code{\link{geoMean}}}
 \examples{
-x <- abs(rnorm(100))
+x = abs(rnorm(100))
 geoSE(x)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
