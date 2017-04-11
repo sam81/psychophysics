@@ -22,7 +22,7 @@ getRMS(signal)
 \references{Hartmann, W. M. (1998) \emph{Signals, sound and sensation}. New York: Springer.}
 \author{Samuele Carcagno}
 
-\seealso{\code{\link{adjustRMS}} }
+%\seealso{\code{\link{adjustRMS}} }
 \examples{
 # generate random signal
 x = rnorm(100)

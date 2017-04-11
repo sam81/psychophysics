@@ -25,7 +25,7 @@ Color palette as a vector of hexadecimal strings
 %\references{ ~put references to the literature/web site here ~ }
 \author{Samuele Carcagno}
 %\note{
-}
+%}
 %\seealso{ ~~objects to See Also as \code{\link{help}}, ~~~ }
 \examples{
 plot(1:9, col=colorBlindPalette(), cex=2, pch=16)

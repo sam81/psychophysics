@@ -12,9 +12,9 @@ geoSD(x)
 \arguments{
   \item{x}{a numeric vector of positive values}
 }
-\details{
+%% \details{
 
-}
+%% }
 
 \value{
 The geometric standard deviation of the input data

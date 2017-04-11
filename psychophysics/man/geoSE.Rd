@@ -12,10 +12,10 @@ geoSE(x)
 \arguments{
   \item{x}{numeric vector of positive values}
 }
-\details{
+%% \details{
 
 
-}
+%% }
 \value{
  The geometric standard error of the geometric mean of the input data
 }

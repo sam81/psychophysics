@@ -1,11 +1,11 @@
 Package: psychophysics
 Type: Package
-Title: Various Utilities for psychophysical research
-Version: 1.0
-Date: 2014-11-13
+Title: Miscellaneous utilities for psychophysical research
+Version: 1.0.1
+Date: 2017-04-11
 Author: Samuele Carcagno
 Maintainer: <sam.carcagno@gmail.com>
-Depends: psyphy, TeachingDemos
-Suggests: sound, signal, seewave
-Description: Miscellaneous utilities for psychophysical research
-License: GPLv3
+Depends: 
+Suggests: 
+Description: Miscellaneous utilities for psychophysical research.
+License: GPL-3

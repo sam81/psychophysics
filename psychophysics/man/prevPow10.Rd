@@ -14,9 +14,9 @@ prevPow10(x)
 \arguments{
   \item{x}{numeric vector}
 }
-\details{
+%% \details{
 
-}
+%% }
 
 \value{
 The previous power of 10 closest to the given argument.

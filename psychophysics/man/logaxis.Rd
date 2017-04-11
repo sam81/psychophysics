@@ -17,15 +17,18 @@ logaxis(side, base=exp(1), add_ticks=NULL, minor=TRUE, ...)
   \item{base}{the logarithm base used to scale the variable. The default
     is $e$ for the natural logarithm.}
   \item{add_ticks}{additional ticks to be drawn (not powers of 10)}
-  \item{minor}{whether minor tick marks should be drawn. Defaults to TRUE}
+  \item{minor}{whether minor tick marks should be drawn. Defaults to
+    TRUE}
+  \item{...}{Arguments to be passed to methods, such as graphical
+          parameters (see 'par')}
 }
-\details{
+%% \details{
 
-}
+%% }
 
-\value{
+%% \value{
 
-}
+%% }
 %\references{ ~put references to the literature/web site here ~ }
 \author{Samuele Carcagno}
 %\note{ ~~further notes~~ 
@@ -49,5 +52,5 @@ logaxis(1, minor=FALSE)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
+\keyword{aplot}
 \keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

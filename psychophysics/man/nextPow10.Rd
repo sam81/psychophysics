@@ -14,9 +14,9 @@ nextPow10(x)
 \arguments{
   \item{x}{numeric vector}
 }
-\details{
+%% \details{
 
-}
+%% }
 
 \value{
 The next power of 10 closest to the given argument.

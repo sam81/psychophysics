@@ -1,0 +1,22 @@
+importFrom("grDevices", "adjustcolor") 
+importFrom("graphics", "axis", "par")
+importFrom("stats", "pnorm", "qnorm", "sd")
+export(colorBlindPalette,
+       fitLogisticPsyML,
+       fliplr,
+       gaussianPsy,
+       geoMean,
+       geoSD,
+       geoSE,
+       getRMS,
+       gumbelPsy,
+       invGaussianPsy,
+       invGumbelPsy,
+       invLogisticPsy,
+       invWeibullPsy,
+       logaxis,
+       logisticPsy,
+       nextPow10,
+       prevPow10,
+       weibullPsy,
+       se)
