@@ -1,7 +1,7 @@
 Package: psychophysics
 Type: Package
 Title: Miscellaneous utilities for psychophysical research
-Version: 1.0.4
+Version: 1.0.5
 Date: 2018-06-27
 Author: Samuele Carcagno
 Maintainer: <sam.carcagno@gmail.com>

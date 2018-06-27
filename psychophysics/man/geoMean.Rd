@@ -6,7 +6,6 @@
  Compute the geometric mean of a set of values
 }
 \usage{
-geoMean(x)
 geoMean(x, na.rm=FALSE)
 }
 %- maybe also 'usage' for other objects documented here.

@@ -6,7 +6,6 @@
 Compute the geometric standard error of the geometric mean of a set of values
 }
 \usage{
-geoSE(x)
 geoSE(x, na.rm=FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
