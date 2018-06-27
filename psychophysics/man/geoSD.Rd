@@ -6,7 +6,6 @@
 Compute the geometric standard deviation of a set of values
 }
 \usage{
-geoSD(x)
 geoSD(x, na.rm=FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
