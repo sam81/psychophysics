@@ -54,3 +54,11 @@ cmd = paste0("git commit -a -m '", opt$message, "'")
 system(cmd)
 cmdTag = paste0("git tag -a '", gittag, "'", " -m '", gittag, "'")
 system(cmdTag)
+
+lns1 = readLines("buildCheck.sh")
+lns1[6] = paste0("R CMD check psychophysics_", newVer, ".tar.gz")
+writeLines(lns1, "buildCheck.sh")
+
+lns1 = readLines("makeInstall.sh")
+lns1[4] = paste0("R CMD INSTALL -l ~/.R_library psychophysics_", newVer, ".tar.gz")
+writeLines(lns1, "makeInstall.sh")

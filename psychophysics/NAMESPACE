@@ -19,4 +19,5 @@ export(colorBlindPalette,
        nextPow10,
        prevPow10,
        weibullPsy,
+       wGeoMean,
        se)
