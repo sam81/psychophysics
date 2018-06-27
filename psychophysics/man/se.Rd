@@ -8,12 +8,13 @@ This function computes the standard error of the mean of the values in
      computation proceeds.
 }
 \usage{
+se(x)
 se(x, na.rm = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{numeric vector}
-  \item{na.rm}{logical. Should missing values be removed?}
+  \item{na.rm}{a logical value indicating whether ‘NA’ values should be stripped before the computation proceeds.}
 }
 %% \details{
 

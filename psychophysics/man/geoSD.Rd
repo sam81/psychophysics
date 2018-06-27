@@ -7,10 +7,12 @@ Compute the geometric standard deviation of a set of values
 }
 \usage{
 geoSD(x)
+geoSD(x, na.rm=FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{a numeric vector of positive values}
+  \item{x}{a numeric vector of positive values.}
+  \item{na.rm}{a logical value indicating whether ‘NA’ values should be stripped before the computation proceeds.}
 }
 %% \details{
 

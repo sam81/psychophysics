@@ -7,10 +7,12 @@
 }
 \usage{
 geoMean(x)
+geoMean(x, na.rm=FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{a numeric vector of positive numbers}
+  \item{na.rm}{a logical value indicating whether ‘NA’ values should be stripped before the computation proceeds.}
 }
 \details{
   Values must be positive.
