@@ -48,3 +48,21 @@ invGumbelPsy = function(p, alpha, beta, gamma, lambda){
     out = alpha + (log10(-log(1 - (p-gamma)/(1-gamma-lambda))))/beta
     return(out)
 }
+
+psychSlopeToWidth = function(sl, perc=90, sigmoid="logistic"){
+    pTail = (1-perc/100)/2
+    
+    if (sigmoid == "logistic"){
+        out = (2*log(1/pTail-1)) / sl
+    }
+    return(out)
+}
+
+psychWidthToSlope = function(wd, perc=90, sigmoid="logistic"){
+    pTail = (1-perc/100)/2
+    
+    if (sigmoid == "logistic"){
+        out = (2*log(1/pTail-1)) / wd
+    }
+    return(out)
+}

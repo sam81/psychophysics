@@ -18,6 +18,8 @@ export(colorBlindPalette,
        logisticPsy,
        nextPow10,
        prevPow10,
+       psychSlopeToWidth,
+       psychWidthToSlope,
        weibullPsy,
        wGeoMean,
        se)
