@@ -7,9 +7,21 @@ logisticPsy = function(x, alpha, beta, gamma, lambda){
     return(out)
 }
 
+logisticPsyWd = function(x, alpha, width, gamma, lambda, perc=90){
+    beta = psychWidthToSlope(width, perc, sigmoid="logistic")
+    out = logisticPsy(x, alpha, beta, gamma, lambda)
+    return(out)
+}
+
 invLogisticPsy = function(p, alpha, beta, gamma, lambda){
     x = alpha - (1/beta)*log((1-gamma-lambda)/(p-gamma) - 1)
     return(x)
+}
+
+invLogisticPsyWd = function(p, alpha, width, gamma, lambda, perc=90){
+    beta = psychWidthToSlope(width, perc, sigmoid="logistic")
+    out = invLogisticPsy(p, alpha, beta, gamma, lambda)
+    return(out)
 }
 
 gaussianPsy = function(x, alpha, beta, gamma, lambda){
