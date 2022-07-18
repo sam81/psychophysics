@@ -2,7 +2,6 @@ erf = function(x) 2 * pnorm(x * sqrt(2)) - 1
 erfinv = function (x) qnorm((1 + x)/2)/sqrt(2)
 
 logisticPsy = function(x, alpha, beta, gamma, lambda){
-
     out = gamma + (1-gamma-lambda) *(1/(1+exp(beta*(alpha-x))))
     return(out)
 }
